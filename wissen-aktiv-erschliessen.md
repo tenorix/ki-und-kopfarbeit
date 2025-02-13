@@ -1,5 +1,5 @@
 ---
-title: Wissen aktiv erschließen: Analysieren, lernen und verstehen
+title: Wissen aktiv erschliessen
 layout: default
 ---
 
@@ -12,6 +12,8 @@ Gerade wenn du ein völlig neues Thema erlernen möchtest, kann es schwer sein, 
 - Erklärungen auf dein Wissen und dein Ziel anpassen.
 - Fragen stellen, die dein Verständnis vertiefen.
 - Lernstrategien wie die Feynman-Methode oder den Sokratischen Dialog nutzen.
+
+Ich verwende den Begriff KI Chatbot als Überbegriff für ChatGPT, Copilot, Claude, Gemini und wie sie alle heissen. Getestet habe ich das bisher nur mit ChatGPT 4o.
 
 Dieses Kapitel zeigt dir, wie du gezielt mit einem KI-Chatbot interagierst, um dein Lernen effektiver und interaktiver zu gestalten. Ob durch präzise Fragestellungen, systematische Klassifizierung oder dialogbasiertes Verstehen – der Schlüssel liegt darin, aktiv mit dem Thema zu arbeiten.
 

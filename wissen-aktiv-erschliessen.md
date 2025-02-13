@@ -3,7 +3,7 @@ title: Wissen aktiv erschliessen
 layout: default
 ---
 
-
+# Wissen aktiv erschließen: Analysieren, lernen und verstehen mit KI Chatbot
 
 Lernen ist mehr als nur das Aufnehmen von Informationen – es bedeutet, Wissen aktiv zu erarbeiten, zu hinterfragen und zu verknüpfen. Doch oft stellt sich die Frage: Wo fange ich an? Was muss ich eigentlich wissen?
 
@@ -13,13 +13,15 @@ Gerade wenn du ein völlig neues Thema erlernen möchtest, kann es schwer sein, 
 - Fragen stellen, die dein Verständnis vertiefen.
 - Lernstrategien wie die Feynman-Methode oder den Sokratischen Dialog nutzen.
 
+![Sketchnote zu Lernen](assets/wissen-aktiv-erschliessen.jpg) Bild: Dall-e
+
 Ich verwende den Begriff KI Chatbot als Überbegriff für ChatGPT, Copilot, Claude, Gemini und wie sie alle heissen. Getestet habe ich das bisher nur mit ChatGPT 4o.
 
 Dieses Kapitel zeigt dir, wie du gezielt mit einem KI-Chatbot interagierst, um dein Lernen effektiver und interaktiver zu gestalten. Ob durch präzise Fragestellungen, systematische Klassifizierung oder dialogbasiertes Verstehen – der Schlüssel liegt darin, aktiv mit dem Thema zu arbeiten.
 
 Lass uns gemeinsam entdecken, wie du Wissen nicht nur aufnimmst, sondern wirklich verstehst und anwendest!
 
-# Lerndialog
+## Lerndialog
 
 Wenn du etwas Neues lernen möchtest, hilft es, zunächst den Rahmen abzustecken. 
 
@@ -54,19 +56,19 @@ Gib mir ein Beispiel für [X].
 Was ist der Zusammenhang von [A] und [B]?
 ```
 
-# Schlüsselbegriffe und Kategorien 
+## Schlüsselbegriffe und Kategorien 
 
 ```
-# Artikel hochladen
+## Artikel hochladen
 Gib mir eine Liste der 20 Schlüsselbegriffe in diesem Artikel und gliedere sie in 5 Kategorien
 ```
 
 ```
-# Artikel hochladen
+## Artikel hochladen
 Gib mir eine Liste der 20 Kernaussagen in diesem Artikel und gliedere sie in 5 Kategorien
 ```
 
-# Sokratische Dialoge
+## Sokratische Dialoge
 
 Die sokratische Methode hilft, Wissen aktiv zu erarbeiten und Annahmen zu hinterfragen, anstatt sie blind zu übernehmen. 
 - Fragenbasiertes Lernen – Wissen wird durch gezielte Fragen erschlossen, nicht durch direkte Belehrung.
@@ -81,7 +83,7 @@ Du kannst deinen KI Chatbot zu deinem Privatlehrer machen, der dich mit Fragen l
 Du bist mein sokratischer Lehrer. Hilf mir, das Konzept "[KONZEPT]" zu verstehen. Stelle mir Fragen, die mich beim Verständnis leiten. Führe einen Dialog mit mir: Du stellst mir eine Frage, ich antworte, usw.
 ```
 
-# Erklärungen von einfach bis akademisch
+## Erklärungen von einfach bis akademisch
 
 Du kannst deinen KI Chatbot anweisen, dir etwas auf verschiedenen Leveln zu erklären. Das hilft beim Verständnis einzelner Konzepte, kann aber nicht das aktive Arbeiten mit den Themen ersetzen. 
 ```
@@ -89,12 +91,12 @@ Erkläre das Konzept "[KONZEPT]" für einen Grundschüler, für einen Abiturient
 ```
 
 
-# Übungsfragen erstellen und überprüfen
+## Übungsfragen erstellen und überprüfen
 
 Lasse dir Übungsfragen erstellen und lasse deinen KI Chatbot die Antwort überprüfen. Das funktioniert sehr gut in einem längeren Lerndialog, dann kennt der KI Chatbot die Themen und deinen Wissenslevel schon aus dem Kontext des Chats.  
 
 ```
-# in einem Lerndialog
+## in einem Lerndialog
 Stelle mir 10 Übungsfragen zu "[THEMA]".
 ```
 ```
@@ -130,13 +132,13 @@ Hier ist ein Kapitel über "[THEMA]". Agiere als mein Lehrer und stelle mir 10 e
 Summarizing and Comparing: ->"Summarize this paper and list the key concepts. Then compare it to my summary and identify any gaps." 
 
 
-# Analogien und Beispiele
+## Analogien und Beispiele
 
 ```
 Gib mir Analogien und Beispiele aus der realen Welt, um [KONZEPT] zu verstehen.
 ```
 
-# Klassifizierung, Ursache-Wirkung, Erklärung
+## Klassifizierung, Ursache-Wirkung, Erklärung
 
 Dein KI Chatbot kann dir helfen, die wichtigsten Aussagen in einem Text herauszuarbeiten. 
 
@@ -153,7 +155,7 @@ Ausgabe als Tabelle mit 3 Spalten.
 ```
 
 
-# Feynman-Methode
+## Feynman-Methode
 
 Die Feynman-Methode ist eine Lernstrategie, die darauf basiert, ein Konzept so einfach zu erklären, dass es selbst ein Anfänger verstehen würde. Sie besteht aus vier Schritten: 
 1. Wähle ein Konzept und schreibe auf, was du darüber weißt. 

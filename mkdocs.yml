@@ -3,6 +3,8 @@ theme:
   name: material
   features:
     - toc.integrate
+    - content.code.copy
+    
 
 nav:
   - Home: index.md
@@ -11,4 +13,3 @@ nav:
   - Wie funktioniert ein Chatbot: wie-funktioniert-ein-chatbot-llm.md
   - Impressum: impressum.md
   - Datenschutzerklärung: datenschutz.md
-

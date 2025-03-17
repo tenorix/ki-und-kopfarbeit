@@ -6,7 +6,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Chatbots richtig nutzen: chatbots-richtig-nutzen.md
+  - ChatGPT effizient nutzen - mehr als nur einzelne Prompts: chatbots-richtig-nutzen.md
   - Lernen mit dem Chatbot: lernen-mit-dem-chatbot.md
   - Wie funktioniert ein Chatbot: wie-funktioniert-ein-chatbot-llm.md
   - Impressum: impressum.md

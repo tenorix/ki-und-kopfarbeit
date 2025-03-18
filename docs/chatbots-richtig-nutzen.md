@@ -6,6 +6,8 @@ Im Netz gibt es unzählige Tipps zum Prompting. Die meisten konzentrieren sich a
 
 ChatGPT kann viel mehr, als man auf den ersten Blick erkennt. Mir hat eine unabhängige Übersicht gefehlt, die nicht nur auf eine bestimmte Anwendung fokussiert ist. Egal, ob du einen Social-Media-Content-Plan erstellst oder wissenschaftliche Texte analysierst – wenn du weißt, was grundsätzlich möglich ist, kannst du gezielter arbeiten und schneller bessere Ergebnisse erzielen.
 
+*Stand März 2025. Die Beispiele wurden mit ChatGPT 4o ausprobiert.*
+
 ## Sprachverarbeitung und Textgenerierung
 
 ### Konversationen in natürlicher Sprache
@@ -202,14 +204,14 @@ Sie hatten Straßen, die bis nach Rom führten. Später wurde Köln eine große 
 mit vielen Gebäuden. Heute kann man noch alte Mauern und römische Fundstücke sehen.
 Die Römer regierten lange Zeit, aber irgendwann war das Römische Reich vorbei. 
 Trotzdem gibt es noch viele Dinge, die von den Römern stammen. Ihre Armee war stark, 
-und sie hatten viele Gesetze. Köln blieb aber eine Stadt, auch als die Römer n
-icht mehr da waren.
+und sie hatten viele Gesetze. Köln blieb aber eine Stadt, auch als die Römer nicht 
+mehr da waren.
 ===
 ```
 
 #### Strukturierte Ausgabe
 
-> ChatGPT bietet neben normalen Texten auch die Möglichkeit, Ausgaben in strukturierten Formaten darzustellen, um eine bessere Übersichtlichkeit und Anpassung an verschiedene Anwendungsfälle zu gewährleisten.
+ChatGPT bietet neben normalen Texten auch die Möglichkeit, Ausgaben in strukturierten Formaten darzustellen, um eine bessere Übersichtlichkeit und Anpassung an verschiedene Anwendungsfälle zu gewährleisten.
 
 Erprobte Formate sind:
 
@@ -491,8 +493,25 @@ kenne die Grundlagen von TCP/IP in der Kommunikation von physischen IT-Systemen.
 Erkläre mir die Kommunikation zwischen zwei Pods in einem Cluster in Kubernetes.
 ``` 
 
-#### Internet-Recherche
+#### Einfache Internet-Recherche
 
+Du kannst mit ChatGPT im Internet recherchieren. Die Ergebnisse kommen dann nicht aus den LLM Trainingsdaten, sondern aus einer Internetsuche. Die Ergebnisse sollte man anhand der von ChatGPT angegebenen Quellen unbedingt überprüfen. Mein Eindruck zu ChatGPT-4o: Die Ergebnisse sind nach mehreren Iterationen oft brauchbar, bleiben aber hinter Abfragen der LLM Trainingsdaten deutlich zurück.
+
+Hier ein Beispiel zum Ausprobieren:
+```
+recherchiere im Internet: Finde Shops, die Proteinpulver anbieten. 
+Finde 10 Artikelseiten für Proteinpulver, die ausdrücklich neutral schmecken (ohne Geschmack) und keine Süßungsmittel enthalten (ohne Süßstoffe). Artikelseiten haben eine Funktion "zum Warenkorb hinzufügen". Ermittle den Preis pro Kilo. Ausgabe als Tabelle: Produkt, Beschreibung, Preis, Shop, URL der Artikelseite.
+```
+
+#### Erweiterte Internet-Recherche: Deep Research
+
+Für Pro-Abonnenten bietet ChatGPT über das Fernrohr-Symbol die "Deep Research" Funktion, die bessere Ergebnisse liefern soll, insbesondere bei der Erstellung von Berichten und Analysen zu einem Thema. Auch hier gilt es, die Ergebnisse und Seriösität der Quellen zu überprüfen, vor allem weil hochwertige Quellen meistens hinter Paywalls liegen und damit für Deep Research nicht verfügbar sind.
+
+Die Recherche mit Deep Research zum Proteinpulver-Beispiel oben dauert 10 Minuten, mit entsprechend hohem Energieverbrauch. Deep Research hat dazu ca. 50 Quellen ausgewertet.
+Das Ergebnis sieht sehr brauchbar aus.
+
+Hier entwickeln sich die Fähigkeiten und die Angebote schnell weiter. 
+Perplexity.ai ist eine gute oder bessere Alternative zu ChatGPT für Suchen im Internet.
  
 #### Ergebnisoffene Fragen statt Suggestivfragen
 

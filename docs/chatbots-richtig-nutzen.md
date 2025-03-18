@@ -142,7 +142,8 @@ Teile keine vertraulichen Daten mit ChatGPT, OpenAI kann und darf nach den Nutzu
 #### Zusammenfassen eines Artikels im Internet
 
 ```
-erstelle eine Zusammenfassung: https://de.wikipedia.org/wiki/Carlo_Gesualdo. Verwende nicht deine LLM Trainingsdaten.
+erstelle eine Zusammenfassung: https://de.wikipedia.org/wiki/Carlo_Gesualdo. 
+Verwende nicht deine LLM Trainingsdaten.
 ```
 #### Zusammenfassen eines Youtube Videos
 
@@ -161,7 +162,8 @@ hier ist ein Transkript eines youtube Videos. Erstelle eine Zusammenfassung.
 Du kannst das Transkript (s.o.) auch in einen gut lesbaren Text umformatieren:
 
 ```
-hier ist ein Transkript eines youtube Videos. Formatiere lesefreundlich und strukturiere in Absätze
+hier ist ein Transkript eines youtube Videos. 
+Formatiere lesefreundlich und strukturiere in Absätze
 
 0:00:01.170 The late great astronomerand science popularizer,
 00:00:05.100 Carl Sagan, had a famous saying:
@@ -189,13 +191,19 @@ formuliere lesefreundlich, in kurzen Sätzen.
 ===
 Die Römer in Köln
 
-Die Römer hatten eine große Armee und bauten viele Straßen. In Köln gab es auch eine Stadtmauer. Sie hatten Thermen und Wasserleitungen, um Wasser in die Stadt zu bringen. Bevor die Römer da waren, lebten dort die Ubier, ein germanischer Stamm.
-
-Die Römer kamen nach Köln, weil sie eine Stadt gründen wollten. Rom war ihr großes Reich und sie eroberten viele Gebiete. Köln war eine „Colonia“, was bedeutet, dass es eine römische Stadt war. Die Römer hatten viele Götter und bauten Tempel für sie.
-
-Handel war sehr wichtig, und viele Menschen lebten dort. Sie hatten Straßen, die bis nach Rom führten. Später wurde Köln eine große Stadt mit vielen Gebäuden. Heute kann man noch alte Mauern und römische Fundstücke sehen.
-
-Die Römer regierten lange Zeit, aber irgendwann war das Römische Reich vorbei. Trotzdem gibt es noch viele Dinge, die von den Römern stammen. Ihre Armee war stark, und sie hatten viele Gesetze. Köln blieb aber eine Stadt, auch als die Römer nicht mehr da waren.
+Die Römer hatten eine große Armee und bauten viele Straßen. 
+In Köln gab es auch eine Stadtmauer. Sie hatten Thermen und Wasserleitungen, 
+um Wasser in die Stadt zu bringen. Bevor die Römer da waren, lebten dort die Ubier, 
+ein germanischer Stamm. Die Römer kamen nach Köln, weil sie eine Stadt gründen wollten. 
+Rom war ihr großes Reich und sie eroberten viele Gebiete. Köln war eine „Colonia“, 
+was bedeutet, dass es eine römische Stadt war. Die Römer hatten viele Götter und 
+bauten Tempel für sie. Handel war sehr wichtig, und viele Menschen lebten dort. 
+Sie hatten Straßen, die bis nach Rom führten. Später wurde Köln eine große Stadt 
+mit vielen Gebäuden. Heute kann man noch alte Mauern und römische Fundstücke sehen.
+Die Römer regierten lange Zeit, aber irgendwann war das Römische Reich vorbei. 
+Trotzdem gibt es noch viele Dinge, die von den Römern stammen. Ihre Armee war stark, 
+und sie hatten viele Gesetze. Köln blieb aber eine Stadt, auch als die Römer n
+icht mehr da waren.
 ===
 ```
 
@@ -251,7 +259,11 @@ Hier ist eine Liste. Formatiere neu. Nimm den ersten Teil bis zum "-" als Übers
 
 ```
 hier ist ein Text: ersetze "Biene" grammatikalisch richtig durch "Schmetterling"
-Die Biene (Nominativ) fliegt von Blüte zu Blüte und sammelt Nektar. Ohne die Biene (Akkusativ) würden viele Pflanzen keine Früchte tragen. Der Lebensraum der Biene (Genitiv) wird jedoch immer kleiner, weil Wiesen und Felder verschwinden. Mit Blumen und Kräutern kann man der Biene (Dativ) helfen, genug Nahrung zu finden.
+Die Biene (Nominativ) fliegt von Blüte zu Blüte und sammelt Nektar. 
+Ohne die Biene (Akkusativ) würden viele Pflanzen keine Früchte tragen. 
+Der Lebensraum der Biene (Genitiv) wird jedoch immer kleiner, weil Wiesen 
+und Felder verschwinden. Mit Blumen und Kräutern kann man der Biene (Dativ) 
+helfen, genug Nahrung zu finden.
 ```
 
 #### Paraphrasieren
@@ -293,13 +305,34 @@ Amtliche Verfahrensanweisung zur geordneten Inanspruchnahme des Dienstleistungsa
 
 Sehr geehrte Antragstellende,
 
-im Interesse eines reibungslosen Verwaltungsablaufs sowie zur Sicherstellung einer sachgerechten Bearbeitung Ihres Anliegens wird dringend darum ersucht, sich nach Betreten der Behörde unverzüglich und ohne Verzögerung zur Wartezettel-Ausgabestelle zu begeben, wo unter Einhaltung der ausgehängten Verfahrensvorgaben ein nummerierter Wartezettel zu entnehmen ist, dessen numerische Kennung als maßgebliche Grundlage für die Reihenfolge der Bearbeitung dient und dessen Verlust oder missbräuchliche Weitergabe unzulässig ist.
+im Interesse eines reibungslosen Verwaltungsablaufs sowie zur 
+Sicherstellung einer sachgerechten Bearbeitung Ihres Anliegens
+ wird dringend darum ersucht, sich nach Betreten der Behörde 
+ unverzüglich und ohne Verzögerung zur Wartezettel-Ausgabestelle 
+ zu begeben, wo unter Einhaltung der ausgehängten Verfahrensvorgaben 
+ ein nummerierter Wartezettel zu entnehmen ist, dessen numerische 
+ Kennung als maßgebliche Grundlage für die Reihenfolge der 
+ Bearbeitung dient und dessen Verlust oder missbräuchliche 
+ Weitergabe unzulässig ist.
 
-Nach ordnungsgemäßer Entgegennahme des Wartezettels ist das für Ihr Anliegen bereitgestellte Formular, dessen korrekte und vollständige Ausfüllung zwingende Voraussetzung für eine weiterführende Bearbeitung darstellt, unter Berücksichtigung aller geforderten Angaben wahrheitsgemäß und gut leserlich auszufüllen, wobei unklare oder fehlerhafte Eintragungen eine Verzögerung des Verfahrens oder eine Ablehnung der Bearbeitung zur Folge haben können.
+Nach ordnungsgemäßer Entgegennahme des Wartezettels ist das für Ihr 
+Anliegen bereitgestellte Formular, dessen korrekte und vollständige 
+Ausfüllung zwingende Voraussetzung für eine weiterführende Bearbeitung 
+darstellt, unter Berücksichtigung aller geforderten Angaben wahrheitsgemäß 
+und gut leserlich auszufüllen, wobei unklare oder fehlerhafte Eintragungen 
+eine Verzögerung des Verfahrens oder eine Ablehnung der Bearbeitung zur F
+olge haben können.
 
-Sodann wird die antragstellende Person angehalten, sich unter Beachtung der allgemeinen Verhaltensrichtlinien im Wartebereich aufzuhalten, bis die auf dem zuvor entgegengenommenen Wartezettel vermerkte Nummer durch optische und/oder akustische Signale über die behördliche Aufrufanlage bekanntgegeben wird, wobei ein versäumter Aufruf zur Folge hat, dass eine erneute Ziehung eines Wartezettels erforderlich werden kann, was wiederum zu einer Verlängerung der Bearbeitungszeit führt.
+Sodann wird die antragstellende Person angehalten, sich unter Beachtung 
+der allgemeinen Verhaltensrichtlinien im Wartebereich aufzuhalten, bis 
+die auf dem zuvor entgegengenommenen Wartezettel vermerkte Nummer durch
+ optische und/oder akustische Signale über die behördliche Aufrufanlage
+  bekanntgegeben wird, wobei ein versäumter Aufruf zur Folge hat, dass 
+  eine erneute Ziehung eines Wartezettels erforderlich werden kann, was 
+  wiederum zu einer Verlängerung der Bearbeitungszeit führt.
 
-Für weitere Rückfragen steht das behördliche Personal ausschließlich während der regulären Sprechzeiten zur Verfügung.
+Für weitere Rückfragen steht das behördliche Personal ausschließlich 
+während der regulären Sprechzeiten zur Verfügung.
 
 Mit verbindlichen Grüßen
 [Behörde XY]
@@ -507,19 +540,63 @@ Analysiere den Text und
 erstelle eine Liste aller Orte, die der Vlogger besucht hat.
 
 ===
-Die Kamera wackelt leicht, als der Vlogger durch die schmalen Straßen von Sumpfrath läuft. „So Leute, willkommen in Sumpfrath. Ich hab keine Ahnung, was es hier gibt, aber wir finden’s raus.“ Die Stadt wirkt ruhig, fast zu ruhig. Ein paar ältere Leute sitzen auf einer Bank am Marktplatz, der von einer Litfaßsäule dominiert wird, deren Plakate längst vergilbt sind. Ein alter Brunnen steht in der Mitte, ohne Wasser.
+Die Kamera wackelt leicht, als der Vlogger durch die schmalen Straßen 
+von Sumpfrath läuft. „So Leute, willkommen in Sumpfrath. Ich hab keine
+ Ahnung, was es hier gibt, aber wir finden’s raus.“ Die Stadt wirkt 
+ ruhig, fast zu ruhig. Ein paar ältere Leute sitzen auf einer Bank 
+ am Marktplatz, der von einer Litfaßsäule dominiert wird, deren Plakate 
+ längst vergilbt sind. Ein alter Brunnen steht in der Mitte, ohne Wasser.
 
-Ein Mann mit Schiebermütze und dickem Pullover sitzt auf der Bank und beobachtet die Straße, als wäre es seine tägliche Aufgabe. Der Vlogger hält die Kamera auf ihn. „Moin! Gibt’s hier was Spannendes?“ Der Mann, Erwin, 78 Jahre alt, zuckt mit den Schultern. „Früher hatten wir mal ‘nen Bäcker. Jetzt nicht mehr. Aber der Döner hier ist okay.“ Der Vlogger nickt langsam. „Gut zu wissen.“
+Ein Mann mit Schiebermütze und dickem Pullover sitzt auf der Bank und 
+beobachtet die Straße, als wäre es seine tägliche Aufgabe. Der Vlogger 
+hält die Kamera auf ihn. „Moin! Gibt’s hier was Spannendes?“ Der Mann, 
+Erwin, 78 Jahre alt, zuckt mit den Schultern. „Früher hatten wir mal ‘
+nen Bäcker. Jetzt nicht mehr. Aber der Döner hier ist okay.“ Der Vlogger 
+nickt langsam. „Gut zu wissen.“
 
-Er schlendert weiter, die Straßen sind schmal, und ab und zu fährt ein Fahrrad vorbei. Google Maps hatte ihm einen Aussichtspunkt namens „Rheinblick“ empfohlen, doch als er dort ankommt, gibt es keinen Rhein, nur einen Parkplatz und eine alte Holzbank, die schief steht. Eine Frau, Anfang vierzig, sitzt dort mit einem Notizbuch auf dem Schoß. Er spricht sie an. „Schreibst du was?“ Sie nickt. „Gedichte. Die Stille hier inspiriert mich.“ Sie blättert auf eine neue Seite. „Hör mal: ‚Ein Tropfen fällt, ins weite Nichts, ein stilles Echo meines Ichs.‘“ Der Vlogger schweigt kurz. „Cool. Aber… warum heißt das hier Rheinblick?“ Die Frau seufzt. „Früher konnte man den Rhein sehen. Dann haben sie da vorne Bäume gepflanzt.“ Er zoomt mit der Kamera auf die dichte Baumreihe. „Okay. Also wenn ihr mal nichts sehen wollt – das ist der perfekte Spot.“
+Er schlendert weiter, die Straßen sind schmal, und ab und zu fährt
+ ein Fahrrad vorbei. Google Maps hatte ihm einen Aussichtspunkt 
+ namens „Rheinblick“ empfohlen, doch als er dort ankommt, gibt 
+ es keinen Rhein, nur einen Parkplatz und eine alte Holzbank, 
+ die schief steht. Eine Frau, Anfang vierzig, sitzt dort mit einem 
+ Notizbuch auf dem Schoß. Er spricht sie an. „Schreibst du was?“ 
+ Sie nickt. „Gedichte. Die Stille hier inspiriert mich.“ Sie blättert 
+ auf eine neue Seite. „Hör mal: ‚Ein Tropfen fällt, ins weite Nichts, 
+ ein stilles Echo meines Ichs.‘“ Der Vlogger schweigt kurz. „Cool. 
+ Aber… warum heißt das hier Rheinblick?“ Die Frau seufzt. „Früher 
+ konnte man den Rhein sehen. Dann haben sie da vorne Bäume gepflanzt.“
+  Er zoomt mit der Kamera auf die dichte Baumreihe. „Okay. Also wenn 
+  ihr mal nichts sehen wollt – das ist der perfekte Spot.“
 
-Er folgt einer Nebenstraße, die laut Google Maps zum „Kulturzentrum“ führt. Die Kamera schwenkt über ein kleines, graues Gebäude mit einem handgeschriebenen Schild: „Heute: Schachabend“. Er geht rein. An einem Tisch sitzt ein junger Mann mit Hoodie, der konzentriert auf ein Schachbrett starrt. „Moin, was geht?“ fragt der Vlogger. „Schach.“ Der junge Mann, Kevin, 27, deutet auf den leeren Platz ihm gegenüber. „Willst du spielen?“ Der Vlogger überlegt kurz. „Ich verliere in drei Minuten.“ Kevin grinst. „Wahrscheinlich.“ Der Vlogger lehnt sich zurück. „Lass lieber. Aber ich film mal kurz das spannendste Kultur-Event in Sumpfrath.“ Kevin lacht. „Falls du mal Schach-Memes brauchst, sag Bescheid.“
+Er folgt einer Nebenstraße, die laut Google Maps zum „Kulturzentrum“ 
+führt. Die Kamera schwenkt über ein kleines, graues Gebäude mit einem 
+handgeschriebenen Schild: „Heute: Schachabend“. Er geht rein. An einem
+ Tisch sitzt ein junger Mann mit Hoodie, der konzentriert auf ein 
+ Schachbrett starrt. „Moin, was geht?“ fragt der Vlogger. „Schach.“
+  Der junge Mann, Kevin, 27, deutet auf den leeren Platz ihm gegenüber. 
+  „Willst du spielen?“ Der Vlogger überlegt kurz. „Ich verliere in drei
+   Minuten.“ Kevin grinst. „Wahrscheinlich.“ Der Vlogger lehnt sich 
+   zurück. „Lass lieber. Aber ich film mal kurz das spannendste 
+   Kultur-Event in Sumpfrath.“ Kevin lacht. „Falls du mal Schach-Memes 
+   brauchst, sag Bescheid.“
 
-Wieder draußen folgt er einem weiteren Google-Hinweis: „Alter Turm – historisches Wahrzeichen.“ Die Kamera zeigt eine Wiese, ein paar Steine, ein verwittertes Schild. „Hier stand mal der alte Turm von Sumpfrath.“ Der Vlogger schweigt. „Okay. Ich glaub, wir haben das Highlight gefunden.“
+Wieder draußen folgt er einem weiteren Google-Hinweis: „Alter Turm
+ – historisches Wahrzeichen.“ Die Kamera zeigt eine Wiese, ein paar 
+ Steine, ein verwittertes Schild. „Hier stand mal der alte Turm von
 
-Als er schließlich zurück zum Marktplatz geht, bleibt er noch einmal vor dem Dönerladen stehen. Erwin sitzt noch immer auf der Bank und nickt ihm zu. „Der Döner ist echt okay, weißte?“ Der Vlogger grinst. „Gut, dann teste ich den jetzt. Sonst hat Sumpfrath mich nämlich komplett verloren.“
+ Sumpfrath.“ Der Vlogger schweigt. „Okay. Ich glaub, wir haben das Highlight gefunden.“
 
-Die Kamera wackelt leicht, während er in den Döner beißt. Er hält kurz inne, kaut langsam, dann nickt er. „Leute… der Döner ist okay.“ Er hebt die Kamera für einen letzten Blick auf den stillen Marktplatz. „Das war’s aus Sumpfrath. Ich glaub, ich komm nie wieder. Aber falls ihr einen Ort sucht, an dem einfach nichts passiert – ihr wisst, wo ihr ihn findet.“ Dann endet das Video.
+Als er schließlich zurück zum Marktplatz geht, bleibt er noch einmal
+ vor dem Dönerladen stehen. Erwin sitzt noch immer auf der Bank und 
+ nickt ihm zu. „Der Döner ist echt okay, weißte?“ Der Vlogger grinst.
+  „Gut, dann teste ich den jetzt. Sonst hat Sumpfrath mich nämlich komplett verloren.“
+
+Die Kamera wackelt leicht, während er in den Döner beißt. Er hält 
+kurz inne, kaut langsam, dann nickt er. „Leute… der Döner ist okay.“ 
+Er hebt die Kamera für einen letzten Blick auf den stillen Marktplatz. 
+„Das war’s aus Sumpfrath. Ich glaub, ich komm nie wieder. Aber falls i
+hr einen Ort sucht, an dem einfach nichts passiert – ihr wisst, wo ihr 
+ihn findet.“ Dann endet das Video.
 ===
 ```
 Jetzt die Frage nach den Personen:
@@ -573,23 +650,7 @@ Ich lege jetzt die Zielgruppe im nachfolgenden Text fest:
 
 Durch diesen interaktiven Prozess kann ChatGPT dich sogar auf Widersprüche oder Unklarheiten in deinem eigenen Text hinweisen. Das Ziel ist nicht, nur eine Antwort zu bekommen, sondern durch systematisches Denken eine tragfähige, durchdachte Strategie zu entwickeln. Wenn du den Prozess ernst nimmst, wirst du dich selbst überraschen mit dem, was du in der Lage bist zu erarbeiten.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 ## weitere Fähigkeiten - Themenspeicher
 
 - Beratung

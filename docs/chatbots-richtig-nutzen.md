@@ -291,7 +291,7 @@ verstärkt und ihre Beliebtheit bei Katzenliebhabern weltweit weiter steigert.
 
 Einfache Sprache ist eine verständliche Sprachform mit kurzen Sätzen, einfachen Wörtern und klarer Struktur. Sie vermeidet Fremdwörter, Fachbegriffe und komplizierte Grammatik, damit möglichst viele Menschen den Text leicht verstehen können.
 
-Hier ein Beispiel:
+Hier ein Beispiel für die Übersetzung von Behördendeutsch in einfache Sprache:
 ```
 Schreibe den Text in einfacher Sprache. Achte dabei auf folgende Regeln:
 - Verwende kurze Sätze (max. 12-15 Wörter).
@@ -303,7 +303,8 @@ Schreibe den Text in einfacher Sprache. Achte dabei auf folgende Regeln:
 - Zahlen verständlich schreiben (statt „25 %“ → „ein Viertel“).
 - Setze Absätze und Listen für bessere Lesbarkeit.
 ===
-Amtliche Verfahrensanweisung zur geordneten Inanspruchnahme des Dienstleistungsangebots unter Berücksichtigung der organisatorischen Abläufe im Wartebereich
+Amtliche Verfahrensanweisung zur geordneten Inanspruchnahme des Dienstleistungsangebots 
+unter Berücksichtigung der organisatorischen Abläufe im Wartebereich
 
 Sehr geehrte Antragstellende,
 
@@ -500,7 +501,12 @@ Du kannst mit ChatGPT im Internet recherchieren. Die Ergebnisse kommen dann nich
 Hier ein Beispiel zum Ausprobieren:
 ```
 recherchiere im Internet: Finde Shops, die Proteinpulver anbieten. 
-Finde 10 Artikelseiten für Proteinpulver, die ausdrücklich neutral schmecken (ohne Geschmack) und keine Süßungsmittel enthalten (ohne Süßstoffe). Artikelseiten haben eine Funktion "zum Warenkorb hinzufügen". Ermittle den Preis pro Kilo. Ausgabe als Tabelle: Produkt, Beschreibung, Preis, Shop, URL der Artikelseite.
+Finde 10 Artikelseiten für Proteinpulver, 
+die ausdrücklich neutral schmecken (ohne Geschmack) 
+und keine Süßungsmittel enthalten (ohne Süßstoffe). 
+Artikelseiten haben eine Funktion "zum Warenkorb hinzufügen". 
+Ermittle den Preis pro Kilo. 
+Ausgabe als Tabelle: Produkt, Beschreibung, Preis, Shop, URL der Artikelseite.
 ```
 
 #### Erweiterte Internet-Recherche: Deep Research

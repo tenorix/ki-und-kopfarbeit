@@ -1,0 +1,1517 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../lernen-mit-dem-chatbot/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>ChatGPT effizient nutzen - mehr als nur einzelne Prompts - ki-und-kopfarbeit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#was-kann-chatgpt-eigentlich" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ki-und-kopfarbeit" class="md-header__button md-logo" aria-label="ki-und-kopfarbeit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ki-und-kopfarbeit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ChatGPT effizient nutzen - mehr als nur einzelne Prompts
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ki-und-kopfarbeit" class="md-nav__button md-logo" aria-label="ki-und-kopfarbeit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ki-und-kopfarbeit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    ChatGPT effizient nutzen - mehr als nur einzelne Prompts
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    ChatGPT effizient nutzen - mehr als nur einzelne Prompts
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#was-kann-chatgpt-eigentlich" class="md-nav__link">
+    <span class="md-ellipsis">
+      Was kann ChatGPT eigentlich?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprachverarbeitung-und-textgenerierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sprachverarbeitung und Textgenerierung
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sprachverarbeitung und Textgenerierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#konversationen-in-naturlicher-sprache" class="md-nav__link">
+    <span class="md-ellipsis">
+      Konversationen in natürlicher Sprache
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Konversationen in natürlicher Sprache">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schritt-fur-schritt-im-dialog-zum-ergebnis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt für Schritt im Dialog zum Ergebnis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neues-thema-neuer-chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Neues Thema, neuer Chat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verfassen-und-optimieren-von-texten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verfassen und Optimieren von Texten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Verfassen und Optimieren von Texten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automatisierte-texterstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatisierte Texterstellung
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zusammenfassen-umschreiben-und-paraphrasieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zusammenfassen, Umschreiben und Paraphrasieren
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zusammenfassen, Umschreiben und Paraphrasieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zusammenfassen-eines-artikels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zusammenfassen eines Artikels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zusammenfassen-eines-artikels-im-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zusammenfassen eines Artikels im Internet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zusammenfassen-eines-youtube-videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zusammenfassen eines Youtube Videos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#youtube-video-tonspur-in-lesbaren-text-umwandeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      Youtube Video Tonspur in lesbaren Text umwandeln
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#umformulieren-und-neustrukturierung-eigener-texte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Umformulieren und Neustrukturierung eigener Texte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strukturierte-ausgabe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strukturierte Ausgabe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#umformatieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Umformatieren
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grammatikalisch-richtiges-ersetzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grammatikalisch richtiges Ersetzen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paraphrasieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paraphrasieren
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stil-und-tonanpassung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stil- und Tonanpassung
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stil- und Tonanpassung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zielgruppe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zielgruppe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stil
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tonalitat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tonalität
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informationsbeschaffung-und-analyse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informationsbeschaffung und Analyse
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Informationsbeschaffung und Analyse">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#beantwortung-von-wissensfragen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beantwortung von Wissensfragen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Beantwortung von Wissensfragen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#weltwissen-erklarung-von-komplexen-konzepten-und-zusammenhangen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weltwissen: Erklärung von komplexen Konzepten und Zusammenhängen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einfache-internet-recherche" class="md-nav__link">
+    <span class="md-ellipsis">
+      Einfache Internet-Recherche
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erweiterte-internet-recherche-deep-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Erweiterte Internet-Recherche: Deep Research
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisoffene-fragen-statt-suggestivfragen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ergebnisoffene Fragen statt Suggestivfragen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faktencheck" class="md-nav__link">
+    <span class="md-ellipsis">
+      Faktencheck
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strukturierte-zusammenfassungen-aus-texten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strukturierte Zusammenfassungen aus Texten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extrahieren-und-filtern-von-informationen-aus-texten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extrahieren und Filtern von Informationen aus Texten
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beratung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beratung
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Beratung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vorgehen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vorgehen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vorgehen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vorgehensmodelle-im-dialog-chatgpt-stellt-dir-fragen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vorgehensmodelle im Dialog - ChatGPT stellt dir Fragen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weitere-fahigkeiten-themenspeicher" class="md-nav__link">
+    <span class="md-ellipsis">
+      weitere Fähigkeiten - Themenspeicher
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lernen-mit-dem-chatbot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernen mit dem Chatbot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wie-funktioniert-ein-chatbot-llm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wie funktioniert ein Chatbot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../impressum/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impressum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datenschutz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datenschutzerklärung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>ChatGPT effizient nutzen - mehr als nur einzelne Prompts</h1>
+
+<h2 id="was-kann-chatgpt-eigentlich">Was kann ChatGPT eigentlich?</h2>
+<p>Diese Sammlung gibt dir einen Überblick über die grundlegenden Fähigkeiten von ChatGPT – und wie du sie gezielt einsetzen kannst.</p>
+<p>Im Netz gibt es unzählige Tipps zum Prompting. Die meisten konzentrieren sich auf einzelne Prompts, aber das ist höchstens die halbe Wahrheit. Wirklich gute Ergebnisse entstehen erst im Dialog mit ChatGPT. Mein Aha-Moment war genau das: zu verstehen, dass ChatGPT nicht nur Antworten liefert, sondern ein Werkzeug ist, mit dem ich meine Gedanken strukturieren und weiterentwickeln kann.</p>
+<p>ChatGPT kann viel mehr, als man auf den ersten Blick erkennt. Mir hat eine unabhängige Übersicht gefehlt, die nicht nur auf eine bestimmte Anwendung fokussiert ist. Egal, ob du einen Social-Media-Content-Plan erstellst oder wissenschaftliche Texte analysierst – wenn du weißt, was grundsätzlich möglich ist, kannst du gezielter arbeiten und schneller bessere Ergebnisse erzielen.</p>
+<p><em>Stand März 2025. Die Beispiele wurden mit ChatGPT 4o ausprobiert.</em></p>
+<h2 id="sprachverarbeitung-und-textgenerierung">Sprachverarbeitung und Textgenerierung</h2>
+<h3 id="konversationen-in-naturlicher-sprache">Konversationen in natürlicher Sprache</h3>
+<h4 id="schritt-fur-schritt-im-dialog-zum-ergebnis">Schritt für Schritt im Dialog zum Ergebnis</h4>
+<p>ChatGPT kann menschenähnliche Gespräche führen. Das bedeutet, dass die KI nicht nur einzelne Fragen beantwortet, sondern sich an den Gesprächskontext erinnert, natürliche Formulierungen versteht und eine flüssige, intuitive Interaktion ermöglicht.</p>
+<p>ChatGPT verarbeitet nicht nur Wörter – sondern deren Bedeutung im Zusammenhang. Die KI kann komplexe Anweisungen verstehen und präzise darauf reagieren. Doch sie kann nur das interpretieren, was du tatsächlich sagst.</p>
+<p>Die Kommunikation mit ChatGPT ist wie das Einweisen eines neuen Assistenten am ersten Tag: Er bringt Fähigkeiten mit, aber kein Wissen über dich. Ohne klare Anweisungen bleibt ihm nur das Raten – und Raten führt selten zu präzisen Ergebnissen.</p>
+<p>ChatGPT kann keine Gedanken lesen. Wenn du gute Antworten willst, brauchst du auch Klarheit über die Frage. Dein Assistent benötigt nicht nur eine Anweisung, sondern auch Kontext.</p>
+<p>Im Internet gibt es viele Vorlagen für „richtige“ Prompts. Doch es gibt kein absolutes Richtig oder Falsch – nur hilfreiche und weniger hilfreiche Anfragen. Du musst nicht alles in eine einzige Anweisung packen. Ergänze Informationen im Dialog, Schritt für Schritt. So kannst du die Qualität der Antworten gezielt verbessern.</p>
+<p>Häufig genannte Tipps für effektive Prompts:</p>
+<ul>
+<li>
+<p>Einfache, klare Sprache: Qualität vor Quantität.</p>
+</li>
+<li>
+<p>Hintergrund ("Kontext") liefern: Erkläre die Situation, bevor du die Aufgabe stellst.</p>
+</li>
+<li>
+<p>Rolle festlegen: Definiere, wie ChatGPT mit dir interagieren soll.</p>
+</li>
+<li>
+<p>Aufgabe präzisieren: Was genau soll ChatGPT tun?</p>
+</li>
+<li>
+<p>Format, Stil und Länge bestimmen: Klare Vorgaben helfen, das gewünschte Ergebnis zu erhalten.</p>
+</li>
+</ul>
+<p>Beispiel:</p>
+<pre><code>Wir sind eine lokale Agentur für Dog Sitting. 
+Dazu bringen wir berufstätige Hundebesitzer mit Rentnern zusammen.
+
+Du bist mein Marketing-Berater.
+
+Erstelle 10 Ideen für Werbe-Postkarten.
+
+Beschreibe das Bild und den Werbespruch.
+Ausgabe als Tabelle.
+</code></pre>
+<p>Chat bedeutet Dialog, du gelangst am besten in In mehreren Schritten zum Ergebnis. Dein erster Prompt und die erste Antwort sind der Startpunkt und nicht das Ergebnis. </p>
+<p>Nutze den ersten Wurf, um im Dialog eigene Ideen einzubringen, wie im folgenden Beispiel, das den Dialog von oben fortführt:</p>
+<pre><code>Wir wollen mit der Aktion vor allem die 
+berufstätigen Hundebesitzer in den Mittelpunkt stellen.
+Erstelle die 10 Vorschläge neu.
+</code></pre>
+<p>Oder einfach:</p>
+<pre><code>kürzer.
+</code></pre>
+<h4 id="neues-thema-neuer-chat">Neues Thema, neuer Chat</h4>
+<p>ChatGPT merkt sich den Kontext eines Chats – mischst du verschiedene Themen, entsteht Chaos. Ohne klare Trennung kann die KI falsche Verknüpfungen machen, und die Antworten werden unpräzise. Also beginne ein neues Thema in einem neuen Chat.</p>
+<p>Du kannst auch einfach innerhalb eines Threads neu starten, wenn du merkst, dass die Richtung noch nicht stimmt.</p>
+<pre><code>Vergiss den Verlauf des Chats. Wir starten neu.
+</code></pre>
+<h3 id="verfassen-und-optimieren-von-texten">Verfassen und Optimieren von Texten</h3>
+<h4 id="automatisierte-texterstellung">Automatisierte Texterstellung</h4>
+<p>Die meisten Texte folgen einer Struktur, die dem Ziel des Textes und der Erwartung des Lesers entspricht. Die Einladung zu einem Kickoff-Workshop für das neue Projekt sieht vermutlich ähnlich aus wie beim letzten Projekt. Eine Pressemitteilung hat eine typische Struktur. Eine Produktbeschreibung folgt klaren Regeln. Diese Strukturen haben sich über Jahre und Jahrhunderte entwickelt – sie spiegeln unsere Denkweisen und Kommunikationsbedürfnisse wider.</p>
+<p>ChatGPT hat Milliarden von Texten analysiert und erkennt diese Muster. 
+Wir Menschen, unsere Probleme und Ziele sind nicht so einzigartig, wie wir denken.</p>
+<p>Diese Struktur kannst du gezielt nutzen: Erstelle Texte in einem bestimmten Format und ergänze sie mit neuen Informationen.</p>
+<p>Der Kontext ist entscheidend. ChatGPT liefert dir das, was du vorgibst. Die Klarheit, Tiefe und Genauigkeit des Ergebnisses hängen von deinen Anweisungen ab. Die Verantwortung bleibt bei dir. Ein gutes Werkzeug erleichtert die Arbeit, aber es nimmt dir das Denken nicht ab. Präzise Formulierungen führen zu besseren Texten – unklare Anweisungen zu vagen Ergebnissen.</p>
+<p>Hier sind einige Beispiele für Textformate als Anregung:</p>
+<ul>
+<li><strong>Bericht</strong> – Detaillierte Analyse oder Zusammenfassung eines Themas  </li>
+<li><strong>Blogartikel</strong> – Strukturiert, informativ und oft mit persönlichem Ton  </li>
+<li><strong>Instagram-Post</strong> – Kurz, prägnant, oft mit Call-to-Action oder Hashtags  </li>
+<li><strong>LinkedIn-Beitrag</strong> – Fachlich fundiert, zielgerichtet für ein Business-Publikum  </li>
+<li><strong>Pressemitteilung</strong> – Formaler Text für Unternehmens- oder Produktneuheiten  </li>
+<li><strong>Produktbeschreibung</strong> – Verkaufsstarker Text mit Fokus auf Vorteile und Nutzen  </li>
+<li><strong>E-Mail</strong> – Von geschäftlichen Mails bis hin zu Newslettern  </li>
+<li><strong>Werbeanzeige</strong> – Kurzer, prägnanter Copytext für Online- oder Printwerbung  </li>
+<li><strong>Skript für YouTube oder Podcast</strong> – Dialogorientiert, unterhaltsam oder informativ  </li>
+<li><strong>Geschäftsplan</strong> – Detaillierte Struktur für Unternehmensstrategie und Wachstum  </li>
+<li><strong>Erklärtext</strong> – Einfache, verständliche Darstellung komplexer Themen  </li>
+<li><strong>Storytelling-Text</strong> – Emotionale Geschichten für Marketing oder persönliche Erzählungen  </li>
+<li><strong>Twitter/X-Post</strong> – Maximal 280 Zeichen, direkt auf den Punkt  </li>
+<li><strong>Facebook-Post</strong> – Mischung aus informativ, unterhaltsam und interaktiv  </li>
+<li><strong>Buchzusammenfassung</strong> – Kurzfassung von Kernideen eines Buches  </li>
+<li><strong>Gedicht oder Songtext</strong> – Kreativer Text mit Rhythmus und Stimmung  </li>
+<li><strong>Dialog oder Rollenspiel</strong> – Gesprächsartige Texte für Szenarien oder Simulationen  </li>
+<li><strong>Checkliste</strong> – Strukturiert mit To-Dos oder Tipps zu einem Thema  </li>
+<li><strong>FAQ (Häufig gestellte Fragen)</strong> – Fragen und Antworten zu einem spezifischen Thema  </li>
+<li><strong>Rezension oder Testbericht</strong> – Kritische Bewertung eines Produkts oder einer Dienstleistung  </li>
+</ul>
+<p>Hier ist ein Beispiel zum Ausprobieren:</p>
+<pre><code>Wir sind eine lokale Agentur für Dog Sitting. 
+Dazu bringen wir berufstätige Hundebesitzer mit Rentnern als Dog Sitter zusammen.
+Unsere Leistungen für Hundebesitzer sind:
+- Vermittlung von Dog Sittern
+- Terminplanung mit Dog Sittern 
+- Organisation von Vertretung, kurzfristig oder länger geplant
+
+Erstelle eine formale Leistungsbeschreibung, die Teil eines Vertrages sein kann.
+</code></pre>
+<p>In diesem Beispiel holt ChatGPT viele zusätzliche Inhalte aus den Trainingsdaten. Wir sind eben nicht der erste Dog Sitter auf dem Planeten.</p>
+<h3 id="zusammenfassen-umschreiben-und-paraphrasieren">Zusammenfassen, Umschreiben und Paraphrasieren</h3>
+<h4 id="zusammenfassen-eines-artikels">Zusammenfassen eines Artikels</h4>
+<p>Wenn ChatGPT in irgendetwas richtig gut ist, dann im Zusammenfassen. Am einfachsten geht das mit Copy und Paste, du kopierst eine Webseite oder einen Text mit Ctrl-C / Ctrl-V hinter die Anweisung, wie im Beispiel:</p>
+<pre><code>Erstelle eine Zusammenfassung:
+&lt;kopierter Text&gt;
+</code></pre>
+<p>Oder du verwendest eine PDF-Datei, die du mit dem "+"-Button in deinen Chat hochladen kannst.</p>
+<p>Teile keine vertraulichen Daten mit ChatGPT, OpenAI kann und darf nach den Nutzungsbestimmungen deine Daten in der Free und Plus Version zum Modelltraining verwenden. Das kannst du in deinem ChatGPT Profil abschalten, wenn du daran glaubst: Settings -&gt; Data Controls -&gt; improve the model for everybody. Das Training mit deinen Daten ist in der Team Version standardmäßig deaktiviert. </p>
+<h4 id="zusammenfassen-eines-artikels-im-internet">Zusammenfassen eines Artikels im Internet</h4>
+<pre><code>erstelle eine Zusammenfassung: https://de.wikipedia.org/wiki/Carlo_Gesualdo. 
+Verwende nicht deine LLM Trainingsdaten.
+</code></pre>
+<h4 id="zusammenfassen-eines-youtube-videos">Zusammenfassen eines Youtube Videos</h4>
+<p>Kopiere die URL des Youtube Videos und erstelle ein Transkript, z.b. mit https://tactiq.io/tools/youtube-transcript. Kopiere das erstellte Transkript und wechsle zu ChatGPT. Dann kannst du die Zusammenfassung erstellen:</p>
+<pre><code>hier ist ein Transkript eines youtube Videos. Erstelle eine Zusammenfassung.
+
+00:00:01.170 The late great astronomerand science popularizer,
+00:00:05.100 Carl Sagan, had a famous saying:
+...
+</code></pre>
+<h4 id="youtube-video-tonspur-in-lesbaren-text-umwandeln">Youtube Video Tonspur in lesbaren Text umwandeln</h4>
+<p>Du kannst das Transkript (s.o.) auch in einen gut lesbaren Text umformatieren:</p>
+<pre><code>hier ist ein Transkript eines youtube Videos. 
+Formatiere lesefreundlich und strukturiere in Absätze
+
+0:00:01.170 The late great astronomerand science popularizer,
+00:00:05.100 Carl Sagan, had a famous saying:
+...
+</code></pre>
+<h4 id="umformulieren-und-neustrukturierung-eigener-texte">Umformulieren und Neustrukturierung eigener Texte</h4>
+<p>Sprache formt dein Denken. Wenn du klar schreibst, denkst du klar. Wenn deine Sätze schwammig sind, sind deine Gedanken es auch. Schreiben ist kein bloßes Aneinanderreihen von Worten und Sätzen. Es ist ein Prozess, in dem du deine Ideen ordnest, Fehler erkennst und präzisierst, was du wirklich meinst.</p>
+<p>ChatGPT kann dir helfen und Vorschläge machen, Texte umformulieren, Stil verbessern - aber es darf dich nicht ersetzen. Wenn du das Schreiben auslagerst, verlierst du eine entscheidende Fähigkeit: den Kampf mit deinen eigenen Gedanken.</p>
+<p>Gute Texte entstehen nicht beim ersten Versuch, sie entstehen durch Überarbeitung. Wenn du bewusst über deine Formulierungen nachdenkst, wirst du nicht nur ein besserer Schreiber, sondern auch ein besserer Denker.</p>
+<p>ChatGPT ist wirklich gut darin, einen chaotischen Text in eine Reihenfolge zu bringen und lesefreundlich zu formulieren. Oft, wie bei technischen Texten, geht es nicht um Indivdualität des Denkens und geistreiche Formulierungen, sondern darum, einen Sachverhalt schnell auf den Punkt zu bringen. Dann stört es auch nicht, wenn der Text vielleicht doch ein bißchen nach KI aussieht.</p>
+<p>Hier ist ein einfaches Beispiel mit einem etwas chaotischen Schülertext zum Ausprobieren:</p>
+<pre><code>Nutze nur den nachfolgenden Text, nicht deine Trainingsdaten.
+Schreibe den Text um. 
+
+Bringe die Aussagen in eine logische Reihenfolge und 
+formuliere lesefreundlich, in kurzen Sätzen.
+===
+Die Römer in Köln
+
+Die Römer hatten eine große Armee und bauten viele Straßen. 
+In Köln gab es auch eine Stadtmauer. Sie hatten Thermen und Wasserleitungen, 
+um Wasser in die Stadt zu bringen. Bevor die Römer da waren, lebten dort die Ubier, 
+ein germanischer Stamm. Die Römer kamen nach Köln, weil sie eine Stadt gründen wollten. 
+Rom war ihr großes Reich und sie eroberten viele Gebiete. Köln war eine „Colonia“, 
+was bedeutet, dass es eine römische Stadt war. Die Römer hatten viele Götter und 
+bauten Tempel für sie. Handel war sehr wichtig, und viele Menschen lebten dort. 
+Sie hatten Straßen, die bis nach Rom führten. Später wurde Köln eine große Stadt 
+mit vielen Gebäuden. Heute kann man noch alte Mauern und römische Fundstücke sehen.
+Die Römer regierten lange Zeit, aber irgendwann war das Römische Reich vorbei. 
+Trotzdem gibt es noch viele Dinge, die von den Römern stammen. Ihre Armee war stark, 
+und sie hatten viele Gesetze. Köln blieb aber eine Stadt, auch als die Römer nicht 
+mehr da waren.
+===
+</code></pre>
+<h4 id="strukturierte-ausgabe">Strukturierte Ausgabe</h4>
+<p>ChatGPT bietet neben normalen Texten auch die Möglichkeit, Ausgaben in strukturierten Formaten darzustellen, um eine bessere Übersichtlichkeit und Anpassung an verschiedene Anwendungsfälle zu gewährleisten.</p>
+<p>Erprobte Formate sind:</p>
+<ul>
+<li>Tabelle</li>
+<li>Liste</li>
+<li>Bulletpoints, kurz</li>
+<li>Markdown </li>
+<li>HTML </li>
+<li>JSON </li>
+<li>CSV </li>
+</ul>
+<p>Beispiel:</p>
+<pre><code>An welchen Orten hat Henri Matisse wann gelebt?
+Erstelle eine Tabelle mit den Spalten Wohnort und Zeitraum.
+</code></pre>
+<h4 id="umformatieren">Umformatieren</h4>
+<p>ChatGPT kann beim Umformatieren von Texten helfen. Hier sind einige Beispiele. Vermutlich gibt es keine Patentrezepte, sondern mit ein bißchen Ausprobieren kommst du zum gewünschten Ergebnis.</p>
+<pre><code>Gib als Tabelle aus:
+Kategorie Unterkategorie Beschreibung
+Erstellung Artefakt Idee Erstellen Sie ein neues Artefakt, das direkt oder mit einigen Änderungen verwendet werden kann
+Erstellung Idee Generieren Sie eine Idee, die indirekt verwendet werden kann
+Information Suche Suchen Sie nach einer Tatsache oder einer bestimmten Information
+Information Lernen Lernen Sie ein neues Thema umfassender kennen
+Information Zusammenfassen Erstellen Sie eine kürzere Version eines Inhalts, die die wichtigsten Elemente beschreibt
+Information Analysieren Entdecken Sie eine neue Erkenntnis über Informationen oder Daten
+Beratung Verbesserung Erstellen Sie eine bessere Version
+Beratung Anleitung Erhalten Sie Anleitungen, wie eine Entscheidung getroffen werden kann
+Beratung Validierung Überprüfen Sie, ob ein Artefakt eine Reihe von Regeln oder Einschränkungen erfüllt
+</code></pre>
+<p>Ein weiteres Beispiel zum Ausprobieren:</p>
+<pre><code>Hier ist eine Liste. Formatiere neu. Nimm den ersten Teil bis zum &quot;-&quot; als Überschrift, den zweiten Teil als Absatz:
+    1.  Setze klare Grenzen – Trenne Arbeit und Freizeit, indem du feste Arbeitszeiten einhältst und außerhalb dieser Zeit nicht ständig erreichbar bist.
+    2.  Plane bewusste Pausen ein – Kurze Erholungsphasen während der Arbeit und echte Freizeitaktivitäten helfen, Stress abzubauen und die Produktivität zu steigern.
+    3.  Lerne, Nein zu sagen – Priorisiere deine Aufgaben und vermeide es, dich mit zusätzlichen Verpflichtungen zu überlasten.
+    4.  Bewege dich regelmäßig – Sport oder Spaziergänge helfen, den Kopf freizubekommen und langfristig gesünder zu bleiben.
+    5.  Pflege soziale Kontakte und Hobbys – Zeit mit Familie, Freunden oder für persönliche Interessen sorgt für einen wichtigen Ausgleich zur Arbeit.       |
+</code></pre>
+<h4 id="grammatikalisch-richtiges-ersetzen">Grammatikalisch richtiges Ersetzen</h4>
+<pre><code>hier ist ein Text: ersetze &quot;Biene&quot; grammatikalisch richtig durch &quot;Schmetterling&quot;
+Die Biene (Nominativ) fliegt von Blüte zu Blüte und sammelt Nektar. 
+Ohne die Biene (Akkusativ) würden viele Pflanzen keine Früchte tragen. 
+Der Lebensraum der Biene (Genitiv) wird jedoch immer kleiner, weil Wiesen 
+und Felder verschwinden. Mit Blumen und Kräutern kann man der Biene (Dativ) 
+helfen, genug Nahrung zu finden.
+</code></pre>
+<h4 id="paraphrasieren">Paraphrasieren</h4>
+<p>Paraphrasieren bedeutet, einen Text oder eine Aussage mit eigenen Worten wiederzugeben, ohne die ursprüngliche Bedeutung zu verändern. Dabei wird die Struktur des Satzes umgestellt und oft auch andere Wörter oder Synonyme verwendet.</p>
+<p>Das Paraphrasieren wird oft genutzt, um Texte verständlicher zu machen, Plagiate zu vermeiden oder Inhalte an einen bestimmten Stil oder eine Zielgruppe anzupassen.</p>
+<p>Probiere das mit diesem Beispiel aus:</p>
+<pre><code>Verbessere den folgenden Absatz für bessere Verständlichkeit beim Lesen, ohne die Bedeutung zu verändern:
+
+Katzen, die seit Jahrtausenden als geschickte Jäger, treue Begleiter und mystische Wesen verehrt werden, 
+bewegen sich mit einer Anmut, die ihresgleichen sucht, wobei sie nicht nur durch ihre geschmeidigen Bewegungen, 
+sondern auch durch ihre faszinierenden Augen, die selbst in der tiefsten Dunkelheit noch den kleinsten 
+Lichtschein einfangen können, die Menschen in ihren Bann ziehen, während sie gleichzeitig eine unabhängige 
+Natur an den Tag legen, die sie zu eigenwilligen, aber dennoch liebevollen Haustieren macht, deren 
+Verhalten oft schwer zu deuten ist, da sie einerseits stundenlang verschlafen in der Sonne liegen 
+können, um sich dann plötzlich mit einer beeindruckenden Geschwindigkeit auf ein unsichtbares Ziel 
+zu stürzen, das nur sie allein wahrzunehmen scheinen, was ihre geheimnisvolle Aura nur noch 
+verstärkt und ihre Beliebtheit bei Katzenliebhabern weltweit weiter steigert.
+</code></pre>
+<p>Einfache Sprache ist eine verständliche Sprachform mit kurzen Sätzen, einfachen Wörtern und klarer Struktur. Sie vermeidet Fremdwörter, Fachbegriffe und komplizierte Grammatik, damit möglichst viele Menschen den Text leicht verstehen können.</p>
+<p>Hier ein Beispiel für die Übersetzung von Behördendeutsch in einfache Sprache:</p>
+<pre><code>Schreibe den Text in einfacher Sprache. Achte dabei auf folgende Regeln:
+- Verwende kurze Sätze (max. 12-15 Wörter).
+- Nutze einfache und bekannte Wörter. Vermeide Fremdwörter oder erkläre sie direkt.
+- Halte die Satzstruktur klar und direkt: Subjekt – Prädikat – Objekt.
+- Keine Fachbegriffe oder nur mit kurzer Erklärung.
+- Schreibe in der du- oder Sie-Form und spreche den Leser direkt an.
+- Vermeide das Passiv (statt „Das Formular wird bearbeitet“ → „Wir bearbeiten das Formular“).
+- Zahlen verständlich schreiben (statt „25 %“ → „ein Viertel“).
+- Setze Absätze und Listen für bessere Lesbarkeit.
+===
+Amtliche Verfahrensanweisung zur geordneten Inanspruchnahme des Dienstleistungsangebots 
+unter Berücksichtigung der organisatorischen Abläufe im Wartebereich
+
+Sehr geehrte Antragstellende,
+
+im Interesse eines reibungslosen Verwaltungsablaufs sowie zur 
+Sicherstellung einer sachgerechten Bearbeitung Ihres Anliegens
+ wird dringend darum ersucht, sich nach Betreten der Behörde 
+ unverzüglich und ohne Verzögerung zur Wartezettel-Ausgabestelle 
+ zu begeben, wo unter Einhaltung der ausgehängten Verfahrensvorgaben 
+ ein nummerierter Wartezettel zu entnehmen ist, dessen numerische 
+ Kennung als maßgebliche Grundlage für die Reihenfolge der 
+ Bearbeitung dient und dessen Verlust oder missbräuchliche 
+ Weitergabe unzulässig ist.
+
+Nach ordnungsgemäßer Entgegennahme des Wartezettels ist das für Ihr 
+Anliegen bereitgestellte Formular, dessen korrekte und vollständige 
+Ausfüllung zwingende Voraussetzung für eine weiterführende Bearbeitung 
+darstellt, unter Berücksichtigung aller geforderten Angaben wahrheitsgemäß 
+und gut leserlich auszufüllen, wobei unklare oder fehlerhafte Eintragungen 
+eine Verzögerung des Verfahrens oder eine Ablehnung der Bearbeitung zur F
+olge haben können.
+
+Sodann wird die antragstellende Person angehalten, sich unter Beachtung 
+der allgemeinen Verhaltensrichtlinien im Wartebereich aufzuhalten, bis 
+die auf dem zuvor entgegengenommenen Wartezettel vermerkte Nummer durch
+ optische und/oder akustische Signale über die behördliche Aufrufanlage
+  bekanntgegeben wird, wobei ein versäumter Aufruf zur Folge hat, dass 
+  eine erneute Ziehung eines Wartezettels erforderlich werden kann, was 
+  wiederum zu einer Verlängerung der Bearbeitungszeit führt.
+
+Für weitere Rückfragen steht das behördliche Personal ausschließlich 
+während der regulären Sprechzeiten zur Verfügung.
+
+Mit verbindlichen Grüßen
+[Behörde XY]
+    •   Amtsleitung -
+===
+</code></pre>
+<h3 id="stil-und-tonanpassung">Stil- und Tonanpassung</h3>
+<h4 id="zielgruppe">Zielgruppe</h4>
+<p>Texte und Inhalte sind wirksam, wenn sie den spezifischen Zielgruppenmerkmalen und Anforderungen entsprechen. Du kannst die Fähigkeiten von ChatGPT nutzen, um Texte zielgruppengerecht zu erstellen.</p>
+<pre><code>Warum gab es in Köln Römer?
+Erkläre für einen Fünfjährigen.
+</code></pre>
+<pre><code>Warum gab es in Köln Römer?
+Erkläre für Teilnehmer einer Kulturreise, die alles genau wissen wollen.
+</code></pre>
+<h4 id="stil">Stil</h4>
+<p>Der Stil bezieht sich auf die Art und Weise, wie ein Text verfasst ist – also Satzbau, Wortwahl, Ausdrucksweise und Komplexität.</p>
+<pre><code>Welche unterschiedlichen Stile von Texten werden unterschieden? Ausgabe als Liste, maximal 10 Punkte
+</code></pre>
+<p>Hier sind 10 verschiedene Stile von Texten.</p>
+<ol>
+<li><strong>Wissenschaftlicher Stil</strong> – sachlich, präzise, analytisch, objektiv  </li>
+<li><strong>Journalistischer Stil</strong> – informativ, faktenbasiert, klar, oft neutral  </li>
+<li><strong>Literarischer Stil</strong> – kreativ, bildhaft, emotional, oft erzählerisch  </li>
+<li><strong>Sachlicher/technischer Stil</strong> – nüchtern, detailliert, fachlich korrekt  </li>
+<li><strong>Rhetorisch-persuasiver Stil</strong> – überzeugend, argumentativ, appellierend  </li>
+<li><strong>Umgangssprachlicher Stil</strong> – locker, alltagssprachlich, teils emotional  </li>
+<li><strong>Werblicher Stil</strong> – einprägsam, emotional, aktivierend, oft übertrieben  </li>
+<li><strong>Behördlicher Stil</strong> – formal, distanziert, oft kompliziert und bürokratisch  </li>
+<li><strong>Poetischer Stil</strong> – rhythmisch, sprachspielerisch, metaphorisch  </li>
+<li><strong>Epischer Stil</strong> – erzählerisch, ausschweifend, detailreich  </li>
+</ol>
+<p>Beispiele für verschiedene Textstile mit dem Satz <strong>"Heute ist schönes Wetter."</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Stil</strong></th>
+<th><strong>Beispielsatz</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Wissenschaftlicher Stil</strong></td>
+<td><em>"Die aktuellen meteorologischen Daten zeigen eine überdurchschnittliche Sonnenscheindauer und stabile Temperaturen, was auf günstige Wetterbedingungen hinweist."</em></td>
+</tr>
+<tr>
+<td><strong>Journalistischer Stil</strong></td>
+<td><em>"Laut dem Deutschen Wetterdienst genießen viele Regionen heute sonniges und warmes Wetter."</em></td>
+</tr>
+<tr>
+<td><strong>Literarischer Stil</strong></td>
+<td><em>"Die Sonne strahlte am Himmel, ein sanfter Wind trug den Duft des Frühlings durch die Straßen, und die Welt schien in goldenes Licht getaucht."</em></td>
+</tr>
+<tr>
+<td><strong>Sachlicher/technischer Stil</strong></td>
+<td><em>"Das heutige Wetter ist durch eine klare Atmosphäre, geringe Luftfeuchtigkeit und eine Durchschnittstemperatur von 22°C gekennzeichnet."</em></td>
+</tr>
+<tr>
+<td><strong>Rhetorisch-persuasiver Stil</strong></td>
+<td><em>"Nutzen Sie diesen wundervollen Tag, um die Natur zu genießen – wann, wenn nicht jetzt?"</em></td>
+</tr>
+<tr>
+<td><strong>Umgangssprachlicher Stil</strong></td>
+<td><em>"Ey, mega geiles Wetter heute! Perfekt für 'nen Grillabend!"</em></td>
+</tr>
+<tr>
+<td><strong>Werblicher Stil</strong></td>
+<td><em>"Strahlender Sonnenschein, ein perfekter Tag – genießen Sie ihn mit unserer neuen Sonnenbrillenkollektion!"</em></td>
+</tr>
+<tr>
+<td><strong>Behördlicher Stil</strong></td>
+<td><em>"Gemäß den aktuellen Wetterdaten ist für den heutigen Tag eine hohe Sonnenscheindauer bei moderaten Temperaturen zu erwarten."</em></td>
+</tr>
+<tr>
+<td><strong>Poetischer Stil</strong></td>
+<td><em>"Die Sonne küsst die Erde wach, der Himmel lacht in hellem Blau, der Tag ein reines Goldversprechen."</em></td>
+</tr>
+<tr>
+<td><strong>Epischer Stil</strong></td>
+<td><em>"Es war ein Morgen wie aus einem Traum – die Vögel sangen ihre Lieder, der Himmel spannte sich endlos über die Felder, und ein warmer Hauch kündigte einen Tag voller Licht und Leben an."</em></td>
+</tr>
+</tbody>
+</table>
+<h4 id="tonalitat">Tonalität</h4>
+<p>Die Tonalität beschreibt die emotionale Färbung und Stimmung des Textes – also die Art, wie die Inhalte beim Leser wirken sollen.</p>
+<pre><code>Welche unterschiedlichen Tonalitäten von Texten werden unterschieden? Ausgabe als Liste, maximal 10 Punkte
+</code></pre>
+<p>Hier sind zehn verschiedene Tonalitäten von Texten:</p>
+<ol>
+<li><strong>Sachlich/Neutral</strong> – Objektiv, faktenbasiert, emotionslos  </li>
+<li><strong>Formal</strong> – Höflich, professionell, distanziert  </li>
+<li><strong>Informell</strong> – Locker, umgangssprachlich, persönlich  </li>
+<li><strong>Emotional</strong> – Leidenschaftlich, mit Gefühlsausdrücken versehen  </li>
+<li><strong>Motivierend</strong> – Inspirierend, aufbauend, anspornend  </li>
+<li><strong>Humorvoll</strong> – Witzig, ironisch, spielerisch  </li>
+<li><strong>Dramatisch</strong> – Übertrieben, spannungsgeladen, theatralisch  </li>
+<li><strong>Werblich</strong> – Überzeugend, verkaufsorientiert, beschönigend  </li>
+<li><strong>Kritisch</strong> – Hinterfragend, analytisch, bewertend  </li>
+<li><strong>Provokativ</strong> – Herausfordernd, bewusst polarisierend  </li>
+</ol>
+<p>Soll ich eine bestimmte Tonalität für einen Beispieltext verwenden? 😊</p>
+<pre><code>erstelle ein Beispiel für jede Tonalität für den Satz 
+&quot;Die Wartezeit beträgt aktuell 30 Minuten&quot;. 
+Ausgabe als Tabelle
+</code></pre>
+<table>
+<thead>
+<tr>
+<th><strong>Tonalität</strong></th>
+<th><strong>Beispiel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sachlich/Neutral</strong></td>
+<td><em>"Die Wartezeit beträgt aktuell 30 Minuten."</em></td>
+</tr>
+<tr>
+<td><strong>Formal</strong></td>
+<td><em>"Sehr geehrte Damen und Herren, bitte beachten Sie, dass die aktuelle Wartezeit 30 Minuten beträgt. Wir danken für Ihr Verständnis."</em></td>
+</tr>
+<tr>
+<td><strong>Informell</strong></td>
+<td><em>"Hey, du musst gerade leider ca. 30 Minuten warten. Danke für deine Geduld!"</em></td>
+</tr>
+<tr>
+<td><strong>Emotional</strong></td>
+<td><em>"Wir verstehen, dass Warten frustrierend sein kann. Momentan beträgt die Wartezeit leider 30 Minuten. Wir geben unser Bestes, um sie zu verkürzen!"</em></td>
+</tr>
+<tr>
+<td><strong>Motivierend</strong></td>
+<td><em>"Nur noch 30 Minuten – dann bist du dran! Halte durch, es lohnt sich!"</em></td>
+</tr>
+<tr>
+<td><strong>Humorvoll</strong></td>
+<td><em>"Gute Nachrichten: Du hast jetzt 30 Minuten Zeit, um über den Sinn des Lebens nachzudenken – oder einfach dein Handy zu checken. 😉"</em></td>
+</tr>
+<tr>
+<td><strong>Dramatisch</strong></td>
+<td><em>"Ein harter Kampf gegen die Zeit: Noch 30 Minuten trennen dich von deinem Ziel. Wird es dir gelingen, durchzuhalten?"</em></td>
+</tr>
+<tr>
+<td><strong>Werblich</strong></td>
+<td><em>"Nutze die Wartezeit von 30 Minuten für eine kleine Pause – wir versprechen, es lohnt sich!"</em></td>
+</tr>
+<tr>
+<td><strong>Kritisch</strong></td>
+<td><em>"Eine Wartezeit von 30 Minuten ist nicht akzeptabel. Wir erwarten eine Verbesserung der Abläufe!"</em></td>
+</tr>
+<tr>
+<td><strong>Provokativ</strong></td>
+<td><em>"30 Minuten Wartezeit? Na, wenn du das aushältst, bist du wirklich geduldig!"</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="informationsbeschaffung-und-analyse">Informationsbeschaffung und Analyse</h2>
+<h3 id="beantwortung-von-wissensfragen">Beantwortung von Wissensfragen</h3>
+<h4 id="weltwissen-erklarung-von-komplexen-konzepten-und-zusammenhangen">Weltwissen: Erklärung von komplexen Konzepten und Zusammenhängen</h4>
+<p>ChatGPT hat in seinen Trainingsdaten eine unvorstellbare Menge von Informationen gesammelt. Die Wahrscheinlichkeit ist sehr groß, dass du etwas verstehen möchtest, was schon tausende Male in unterschiedlichen Ansätzen und Detailtiefen beschrieben wurde. </p>
+<p>Die folgende Tabelle gibt einen Überblick über die Trainingsdaten im Modell und eine Einschätzung der Zuverlässigkeit dieses Wissens.</p>
+<table>
+<thead>
+<tr>
+<th>Wissensart</th>
+<th>Beschreibung</th>
+<th>Zuverlässigkeit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sprachliches Wissen</td>
+<td>Sprachkonzepte, Grammatik und Syntax für verschiedene Sprachen, Übersetzung</td>
+<td>Hoch</td>
+</tr>
+<tr>
+<td>Allgemeines Wissen</td>
+<td>Informationen zu gängigen Themen wie Geschichte, Geografie, Wissenschaft und Popkultur</td>
+<td>Hoch</td>
+</tr>
+<tr>
+<td>Kulturelles Wissen</td>
+<td>Wissen über allgemeine kulturelle Themen, Literatur, Kunst und Traditionen</td>
+<td>Hoch</td>
+</tr>
+<tr>
+<td>Management Wissen</td>
+<td>Vorgehensmodelle für Strategiefindung, Priorisierung, Kriterienbewertung, Stärken/Schwächen, Marketing usw.</td>
+<td>Hoch</td>
+</tr>
+<tr>
+<td>Technisches Wissen</td>
+<td>Konzepte aus IT, Programmierung, Mathematik und Technik, die häufig in Dokumentationen vorkommen</td>
+<td>Mittel-Hoch</td>
+</tr>
+<tr>
+<td>Wissenschaftliches Wissen</td>
+<td>Konzepte aus Physik, Chemie, Biologie, die in Bildungsliteratur zu finden sind</td>
+<td>Mittel-Hoch</td>
+</tr>
+<tr>
+<td>Wirtschaftliches Wissen</td>
+<td>Grundlagen der Wirtschaft, allgemeine Marktprinzipien und häufige Theorien</td>
+<td>Mittel-Hoch</td>
+</tr>
+<tr>
+<td>Rechtliches Wissen</td>
+<td>Allgemeine rechtliche Prinzipien und Gesetze, basierend auf öffentlich zugänglichen Quellen</td>
+<td>Mittel (Vorsicht!)</td>
+</tr>
+<tr>
+<td>Medizinisches Wissen</td>
+<td>Grundlagen der Medizin und Gesundheit, ohne tiefergehende Fachkenntnis</td>
+<td>Mittel (Vorsicht!)</td>
+</tr>
+<tr>
+<td>Ratgeber Wissen</td>
+<td>Tourismus, Rezepte, Fitness, Erziehung, Reparaturen, Tipps und Tricks</td>
+<td>Mittel-Hoch (Vorsicht!)</td>
+</tr>
+<tr>
+<td>Spezifisches Expertenwissen</td>
+<td>Wissen aus hochspezialisierten Bereichen (z.B. Quantentechnologie, spezialisierte Wirtschaftsthemen)</td>
+<td>Niedrig</td>
+</tr>
+</tbody>
+</table>
+<p>Um die Qualität der Trainingsdaten zu einer Frage einzuschätzen, kann man sich folgende Punkte überlegen:
+- Wieviele Menschen auf der Welt haben sich diese Frage bereits gestellt?
+- Wie viel wurde über das Thema geschrieben und ist frei zugänglich?
+- Sind die meisten Autoren dazu Experten, Laien oder Meinungsmacher?
+- Gibt es kontroverse Meinungen dazu?
+- Gibt es eingeschränkte Zeiträume, in den die Information gilt (z.B. Gesetze ändern sich immer wieder)?</p>
+<p>Fragen zu Nischenthemen führen heute noch zu Halluzinationen, z.B. Anwendungsfragen zu einem Tool, das nur von wenigen 1000 Nutzern eingesetzt wird. </p>
+<p>Hier ein paar Beispiel-Fragen für Erklärungen:</p>
+<pre><code>Erkläre mir [KONZEPT].
+</code></pre>
+<pre><code>Wie funktioniert [X] genau?
+</code></pre>
+<pre><code>Wozu ist das gut?
+</code></pre>
+<pre><code>Gib mir ein Beispiel für [X].
+</code></pre>
+<pre><code>Was ist der Zusammenhang von [A] und [B]?
+</code></pre>
+<p>Wenn du mit den Antworten noch nicht zufrieden bist, gib Kontext:</p>
+<pre><code>Ich bin Software-Ingenieur und 
+kenne die Grundlagen von TCP/IP in der Kommunikation von physischen IT-Systemen. 
+
+Erkläre mir die Kommunikation zwischen zwei Pods in einem Cluster in Kubernetes.
+</code></pre>
+<h4 id="einfache-internet-recherche">Einfache Internet-Recherche</h4>
+<p>Du kannst mit ChatGPT im Internet recherchieren. Die Ergebnisse kommen dann nicht aus den LLM Trainingsdaten, sondern aus einer Internetsuche. Die Ergebnisse sollte man anhand der von ChatGPT angegebenen Quellen unbedingt überprüfen. Mein Eindruck zu ChatGPT-4o: Die Ergebnisse sind nach mehreren Iterationen oft brauchbar, bleiben aber hinter Abfragen der LLM Trainingsdaten deutlich zurück.</p>
+<p>Hier ein Beispiel zum Ausprobieren:</p>
+<pre><code>recherchiere im Internet: Finde Shops, die Proteinpulver anbieten. 
+Finde 10 Artikelseiten für Proteinpulver, 
+die ausdrücklich neutral schmecken (ohne Geschmack) 
+und keine Süßungsmittel enthalten (ohne Süßstoffe). 
+Artikelseiten haben eine Funktion &quot;zum Warenkorb hinzufügen&quot;. 
+Ermittle den Preis pro Kilo. 
+Ausgabe als Tabelle: Produkt, Beschreibung, Preis, Shop, URL der Artikelseite.
+</code></pre>
+<h4 id="erweiterte-internet-recherche-deep-research">Erweiterte Internet-Recherche: Deep Research</h4>
+<p>Für Pro-Abonnenten bietet ChatGPT über das Fernrohr-Symbol die "Deep Research" Funktion, die bessere Ergebnisse liefern soll, insbesondere bei der Erstellung von Berichten und Analysen zu einem Thema. Auch hier gilt es, die Ergebnisse und Seriösität der Quellen zu überprüfen, vor allem weil hochwertige Quellen meistens hinter Paywalls liegen und damit für Deep Research nicht verfügbar sind.</p>
+<p>Die Recherche mit Deep Research zum Proteinpulver-Beispiel oben dauert 10 Minuten, mit entsprechend hohem Energieverbrauch. Deep Research hat dazu ca. 50 Quellen ausgewertet.
+Das Ergebnis sieht sehr brauchbar aus.</p>
+<p>Hier entwickeln sich die Fähigkeiten und die Angebote schnell weiter. 
+Perplexity.ai ist eine gute oder bessere Alternative zu ChatGPT für Suchen im Internet.</p>
+<h4 id="ergebnisoffene-fragen-statt-suggestivfragen">Ergebnisoffene Fragen statt Suggestivfragen</h4>
+<p>Stelle deine Fragen ergebnisoffen und vermeide Suggestivfragen, in denen die Tendenz der Antwort bereits feststeht.</p>
+<p>Beispiel für eine Suggestivfrage:</p>
+<pre><code>Warum ist Cholesterin in Lebensmitteln schlecht für mich?
+</code></pre>
+<p>Beispiel für eine offene Frage:</p>
+<pre><code>welche verschiedenen Positionen gibt es zu Cholesterin in Lebensmitteln?
+</code></pre>
+<p>Gegenüber früheren Versionen erkennt GPT-4o Suggestivfragen häufig, und öffnet den Ergebnisraum der Antwort selbstständig.</p>
+<h4 id="faktencheck">Faktencheck</h4>
+<p>Du kannst ChatGPT um nachprüfbare Fakten und Referenzen fragen. Das funktioniert schon irgendwie, aber man sollte nicht zuviel erwarten. Teilweise habe ich Referenzen auf Fachbücher erhalten, bei denen ich mich frage, wie dieses legal vom Modell verwendet werden können.  </p>
+<p>Beispiel zum Ausprobieren:</p>
+<pre><code>gib mir eine Liste von nachprüfbaren Fakten und Referenzen 
+zu deinen Aussagen über Cholesterin
+</code></pre>
+<p>Nach meinem Verständnis enthält ein Modell wie GPT-4o selbst keine Quellenangaben. Das heisst, dass ChatGPT bei der Abfrage nach diesen Informationen sucht wie eine Suchmaschine. Hier liefert meines Erachtens heute (Anfang 2025) das Tool perplexity.ai noch bessere Ergebnisse, auch wenn es genauso funktioniert.</p>
+<h3 id="strukturierte-zusammenfassungen-aus-texten">Strukturierte Zusammenfassungen aus Texten</h3>
+<h3 id="extrahieren-und-filtern-von-informationen-aus-texten">Extrahieren und Filtern von Informationen aus Texten</h3>
+<p>ChatGPT kann dir helfen, Informationen aus Texten zu extrahieren. </p>
+<p>Nachfolgend ein Bericht eines Vloggers aus der hypothetischen Stadt Sumpfrath.
+Ziel ist es, eine Liste aller Orte zu erstellen, die der Vlogger besucht hat, und eine Liste aller Personen, die er getroffen hat.</p>
+<p>Hier das Beispiel:</p>
+<pre><code>hier ist ein Text über einen Besuch eine Vloggers in einer Stadt.
+
+Analysiere den Text und 
+erstelle eine Liste aller Orte, die der Vlogger besucht hat.
+
+===
+Die Kamera wackelt leicht, als der Vlogger durch die schmalen Straßen 
+von Sumpfrath läuft. „So Leute, willkommen in Sumpfrath. Ich hab keine
+ Ahnung, was es hier gibt, aber wir finden’s raus.“ Die Stadt wirkt 
+ ruhig, fast zu ruhig. Ein paar ältere Leute sitzen auf einer Bank 
+ am Marktplatz, der von einer Litfaßsäule dominiert wird, deren Plakate 
+ längst vergilbt sind. Ein alter Brunnen steht in der Mitte, ohne Wasser.
+
+Ein Mann mit Schiebermütze und dickem Pullover sitzt auf der Bank und 
+beobachtet die Straße, als wäre es seine tägliche Aufgabe. Der Vlogger 
+hält die Kamera auf ihn. „Moin! Gibt’s hier was Spannendes?“ Der Mann, 
+Erwin, 78 Jahre alt, zuckt mit den Schultern. „Früher hatten wir mal ‘
+nen Bäcker. Jetzt nicht mehr. Aber der Döner hier ist okay.“ Der Vlogger 
+nickt langsam. „Gut zu wissen.“
+
+Er schlendert weiter, die Straßen sind schmal, und ab und zu fährt
+ ein Fahrrad vorbei. Google Maps hatte ihm einen Aussichtspunkt 
+ namens „Rheinblick“ empfohlen, doch als er dort ankommt, gibt 
+ es keinen Rhein, nur einen Parkplatz und eine alte Holzbank, 
+ die schief steht. Eine Frau, Anfang vierzig, sitzt dort mit einem 
+ Notizbuch auf dem Schoß. Er spricht sie an. „Schreibst du was?“ 
+ Sie nickt. „Gedichte. Die Stille hier inspiriert mich.“ Sie blättert 
+ auf eine neue Seite. „Hör mal: ‚Ein Tropfen fällt, ins weite Nichts, 
+ ein stilles Echo meines Ichs.‘“ Der Vlogger schweigt kurz. „Cool. 
+ Aber… warum heißt das hier Rheinblick?“ Die Frau seufzt. „Früher 
+ konnte man den Rhein sehen. Dann haben sie da vorne Bäume gepflanzt.“
+  Er zoomt mit der Kamera auf die dichte Baumreihe. „Okay. Also wenn 
+  ihr mal nichts sehen wollt – das ist der perfekte Spot.“
+
+Er folgt einer Nebenstraße, die laut Google Maps zum „Kulturzentrum“ 
+führt. Die Kamera schwenkt über ein kleines, graues Gebäude mit einem 
+handgeschriebenen Schild: „Heute: Schachabend“. Er geht rein. An einem
+ Tisch sitzt ein junger Mann mit Hoodie, der konzentriert auf ein 
+ Schachbrett starrt. „Moin, was geht?“ fragt der Vlogger. „Schach.“
+  Der junge Mann, Kevin, 27, deutet auf den leeren Platz ihm gegenüber. 
+  „Willst du spielen?“ Der Vlogger überlegt kurz. „Ich verliere in drei
+   Minuten.“ Kevin grinst. „Wahrscheinlich.“ Der Vlogger lehnt sich 
+   zurück. „Lass lieber. Aber ich film mal kurz das spannendste 
+   Kultur-Event in Sumpfrath.“ Kevin lacht. „Falls du mal Schach-Memes 
+   brauchst, sag Bescheid.“
+
+Wieder draußen folgt er einem weiteren Google-Hinweis: „Alter Turm
+ – historisches Wahrzeichen.“ Die Kamera zeigt eine Wiese, ein paar 
+ Steine, ein verwittertes Schild. „Hier stand mal der alte Turm von
+
+ Sumpfrath.“ Der Vlogger schweigt. „Okay. Ich glaub, wir haben das Highlight gefunden.“
+
+Als er schließlich zurück zum Marktplatz geht, bleibt er noch einmal
+ vor dem Dönerladen stehen. Erwin sitzt noch immer auf der Bank und 
+ nickt ihm zu. „Der Döner ist echt okay, weißte?“ Der Vlogger grinst.
+  „Gut, dann teste ich den jetzt. Sonst hat Sumpfrath mich nämlich komplett verloren.“
+
+Die Kamera wackelt leicht, während er in den Döner beißt. Er hält 
+kurz inne, kaut langsam, dann nickt er. „Leute… der Döner ist okay.“ 
+Er hebt die Kamera für einen letzten Blick auf den stillen Marktplatz. 
+„Das war’s aus Sumpfrath. Ich glaub, ich komm nie wieder. Aber falls i
+hr einen Ort sucht, an dem einfach nichts passiert – ihr wisst, wo ihr 
+ihn findet.“ Dann endet das Video.
+===
+</code></pre>
+<p>Jetzt die Frage nach den Personen:</p>
+<pre><code>Erstelle eine Liste der Personen, die der Vlogger getroffen hat
+</code></pre>
+<h2 id="beratung">Beratung</h2>
+<h3 id="vorgehen">Vorgehen</h3>
+<h4 id="vorgehensmodelle-im-dialog-chatgpt-stellt-dir-fragen">Vorgehensmodelle im Dialog - ChatGPT stellt dir Fragen</h4>
+<p>Es gibt unzählige Ratgeber und Methodenbücher zu fast jedem erdenklichen Thema. Sie bieten vorgefertigte Modelle, die dich Schritt für Schritt von einem Problem zur Lösung führen. Doch das reine Lesen eines solchen Buches macht dich nicht automatisch kompetent. Wissen muss angewendet werden – und genau hier kann ChatGPT als dein Werkzeug dienen. </p>
+<p>Ein echter Dialog mit ChatGPT geht weit über das hinaus, was du allein auf Papier erarbeiten könntest. Durch gezielte Fragen, Reflexion und iterative Anpassungen kommst du zu Erkenntnissen, die ohne diesen dynamischen Prozess verborgen blieben. </p>
+<p>Beginne, indem du ChatGPT nach einem geeigneten Vorgehensmodell fragst. Hier ein Beispiel:</p>
+<pre><code>Wir sind eine lokale Agentur für Dog Sitting. 
+Dazu bringen wir berufstätige Hundebesitzer mit Rentnern zusammen.
+
+Agiere als mein Experte für Markenentwicklung. 
+
+Welche Schritte sind notwendig, um eine spezifische Marke 
+für meine Dogsitting-Agentur zu entwickeln?
+</code></pre>
+<p>Probiere das aus. Das Ergebnis wird eine Menge Schritte umfassen. Doch genau das ist der Punkt. Du wirst dich durch jedes Thema arbeiten, tief in die Materie eintauchen, Klarheit gewinnen. Und mit jeder Antwort wird ChatGPT deine Aufgabenstellung und deine individuellen Herausforderungen besser verstehen. </p>
+<p>ChatGPT 4o verfügt pro Chat über ein Gedächtnis (Kontextfenster) von 128k Token – das entspricht mindestens 240 Seiten Text. Nutze dieses Potenzial. Arbeite schrittweise durch jedes Thema, beginnend mit dem ersten Schritt: <strong>Zielgruppenanalyse.</strong></p>
+<pre><code>Hilf mir, die Themen einzeln zu analysieren. 
+Wir beginnen mit dem Thema &quot;Analyse der Zielgruppe&quot;.
+Stelle mir dazu Fragen, bis du genügend Informationen hast. 
+Dann fasse das Ergebnis zusammen.
+</code></pre>
+<p>Du kannst nun tiefer in die Materie eintauchen, ChatGPT zu weiteren Fragen auffordern oder selbst eine präzisierte Version deiner Zielgruppe definieren:</p>
+<pre><code>Danke für dein Ergebnis. 
+Ich lege jetzt die Zielgruppe im nachfolgenden Text fest:
+===
+... dein angepasster Text
+===
+</code></pre>
+<p>Durch diesen interaktiven Prozess kann ChatGPT dich sogar auf Widersprüche oder Unklarheiten in deinem eigenen Text hinweisen. Das Ziel ist nicht, nur eine Antwort zu bekommen, sondern durch systematisches Denken eine tragfähige, durchdachte Strategie zu entwickeln. Wenn du den Prozess ernst nimmst, wirst du dich selbst überraschen mit dem, was du in der Lage bist zu erarbeiten.</p>
+<h2 id="weitere-fahigkeiten-themenspeicher">weitere Fähigkeiten - Themenspeicher</h2>
+<ul>
+<li>
+<p>Beratung</p>
+<ul>
+<li>Feedback</li>
+<li>Feedback zu Stil und formellem Aufbau</li>
+<li>Feedback zu Ideen, Konzepten, Aufsätzen</li>
+</ul>
+</li>
+<li>
+<p>Datenanalyse</p>
+</li>
+<li>
+<p>Reasoning</p>
+</li>
+<li>
+<p>Programmierung und technische Unterstützung</p>
+<ul>
+<li>Code-Generierung und -Erklärung</li>
+<li>Debugging-Hilfe und Fehlersuche</li>
+<li>Dokumentation und Best Practices</li>
+</ul>
+</li>
+<li>
+<p>Diagramme</p>
+</li>
+<li>
+<p>Kreative Inhalte erstellen</p>
+<ul>
+<li>Geschichten, Drehbücher und Gedichte schreiben</li>
+<li>Ideenentwicklung für Marketing, Werbung oder Content-Erstellung</li>
+<li>Namens- und Konzeptfindung für Projekte</li>
+</ul>
+</li>
+<li>
+<p>Problemlösung und Entscheidungsfindung</p>
+<ul>
+<li>Logikanalysen und Argumentationsstrukturierung</li>
+<li>Entwicklung von Entscheidungsbäumen und Prozessen</li>
+<li>Strategieberatung für verschiedene Bereiche</li>
+</ul>
+</li>
+<li>
+<p>Unterstützung im Projektmanagement</p>
+<ul>
+<li>Erstellung von Roadmaps und To-Do-Listen</li>
+<li>Methoden des agilen und klassischen Projektmanagements</li>
+<li>Unterstützung bei Präsentationen und Berichten</li>
+</ul>
+</li>
+<li>
+<p>Sprachübersetzung und Kommunikation</p>
+<ul>
+<li>Übersetzung zwischen verschiedenen Sprachen</li>
+<li>Verbesserung von E-Mails und geschäftlicher Kommunikation</li>
+</ul>
+</li>
+<li>
+<p>Lernen und Weiterbildung</p>
+<ul>
+<li>Erklären komplexer Konzepte in einfachen Worten</li>
+<li>Unterstützung beim Lernen neuer Fähigkeiten</li>
+<li>Quiz, Übungen und Lernpläne erstellen</li>
+</ul>
+</li>
+<li>
+<p>Automatisierung und Effizienzsteigerung</p>
+<ul>
+<li>Vorlagen für Dokumente und Prozesse erstellen</li>
+<li>Skripte für Automatisierung schreiben</li>
+<li>Unterstützung bei Produktivitäts- und Planungstools</li>
+</ul>
+</li>
+<li>
+<p>Simulation und Rollenspiele</p>
+<ul>
+<li>Nachstellung von Interviews oder Kundengesprächen</li>
+<li>Training für Verhandlungssituationen</li>
+<li>Simulation von realen Szenarien für Entscheidungsfindung</li>
+</ul>
+</li>
+<li>
+<p>Datenanalyse</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "content.code.copy"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
